@@ -43,7 +43,7 @@ fun Factorial() {
             onDismissRequest = {
                 expanded = false
             }) {
-            for (n in 0 until 10) {
+            for (n in 1 until 11) {
                 DropdownMenuItem(onClick = {
                     expanded = false
                     text = factorialAsString(n)
